@@ -39,6 +39,13 @@ How to [add Mumbai testnet](https://docs.polygon.technology/docs/develop/remix/#
 - (Optional Fields) Currency Symbol: "MATIC" and Block Explorer URL: "https://mumbai.polygonscan.com/"
 
 
+## Steps
+1. After everything is installed (NodeJS, VSCode, wallet extension) you can start changing your code in VSCode. Or an alternative is using an online editor: [Remix](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js&runs=200)
+2. Install development dependencies: ```npm install```
+3. Change your code in ```contracts/TokenContract.sol```
+4. Deploy your contract: ```npm run deploy-mumbai```
+5. Check the address and add it to your wallet.
+
 ## Contacts
 [Javier Ortin](mailto:jortin@easyfeedbacktoken.io)
 [Easy Feedback Token](https://easyfeedbacktoken.io/en/)

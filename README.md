@@ -17,3 +17,10 @@ For that here are 2 of the most popular ones. Install one of your choice:
 Here there is a list of components you will need: 
 - [Install Node JS](https://nodejs.org/en/download/)
 - [Install Visual Studio Code (recommended IDE)](https://code.visualstudio.com/download)
+
+## Steps
+1. After everything is installed (NodeJS, VSCode, wallet extension) you can start changing your code in VSCode. Or an alternative is using an online editor: [Remix](https://remix.ethereum.org/#optimize=false&evmVersion=null&version=soljson-v0.6.6+commit.6c089d02.js&runs=200)
+2. Install development dependencies: ```npm install```
+3. Change your code in ```contracts/TokenContract.sol```
+4. Deploy your contract: ```npm run deploy-mumbai```
+5. Check the address and add it to your wallet.
