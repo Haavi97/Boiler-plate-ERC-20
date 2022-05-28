@@ -27,6 +27,7 @@ Szabo.
 
 ### ERC-20
 Standard for fungible tokens: [link](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+
 Library with all basic functionality: [link](https://docs.openzeppelin.com/contracts/2.x/erc20)
 
 
@@ -48,4 +49,5 @@ How to [add Mumbai testnet](https://docs.polygon.technology/docs/develop/remix/#
 
 ## Contacts
 [Javier Ortin](mailto:jortin@easyfeedbacktoken.io)
+
 [Easy Feedback Token](https://easyfeedbacktoken.io/en/)
