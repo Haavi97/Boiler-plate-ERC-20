@@ -37,3 +37,8 @@ How to [add Mumbai testnet](https://docs.polygon.technology/docs/develop/remix/#
 - In URL field you can add the URL as "https://rpc-mumbai.maticvigil.com"
 - Enter the Chain ID: 80001
 - (Optional Fields) Currency Symbol: "MATIC" and Block Explorer URL: "https://mumbai.polygonscan.com/"
+
+
+## Contacts
+[Javier Ortin](mailto:jortin@easyfeedbacktoken.io)
+[Easy Feedback Token](https://easyfeedbacktoken.io/en/)

@@ -8,7 +8,6 @@ async function main(network) {
   const deployerAddress = await deployer.getAddress();
   console.log(`Deployer's address: `, deployerAddress);
 
-  let TOKENAddress = process.env.EASYF_MAINNET;
   let tokenContract;
 
   if (deployer) {
@@ -22,7 +21,7 @@ async function main(network) {
   if (tokenContract.address) {
     await tokenContract.mint(
       deployerAddress,
-      web3.utils.toWei("10000", "ether")
+      web3.utils.toWei("10", "ether")
     );
   }
 }
