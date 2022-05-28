@@ -1,0 +1,32 @@
+{
+    "name": "boiler-plate-erc20",
+    "version": "0.0.1",
+    "description": "Boiler plate code for ERC-20 tokens",
+    "main": "boilerplateerc20",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "flat": "bash ./scripts/flatten.sh && python ./scripts/clean_licenses.py",
+        "deploy": "hardhat run ./scripts/deploy.js --network polygon",
+        "deploy-mumbai": "hardhat run ./scripts/deploy.js --network mumbai",
+        "mint": "hardhat run ./scripts/mint.js --network polygon",
+        "mint-mumbai": "hardhat run ./scripts/mint.js --network mumbai"
+    },
+    "keywords": [],
+    "author": "Javier Ortín <jortin@easyfeedbacktoken.io>",
+    "license": "MIT",
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.5.0",
+        "dotenv": "^16.0.0"
+    },
+    "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.5",
+        "@nomiclabs/hardhat-truffle5": "^2.0.5",
+        "@nomiclabs/hardhat-web3": "^2.0.0",
+        "@nomiclabs/hardhat-waffle": "^2.0.1",
+        "ethereum-waffle": "^3.0.0",
+        "ethers": "^5.0.0",
+        "hardhat": "^2.9.1",
+        "web3": "^1.7.1"
+    }
+}
